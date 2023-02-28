@@ -1,0 +1,107 @@
+{{#each product}}
+<div class="row">
+    {{#each this}}
+    <div class="col-sm-4">
+        <div class="card">
+            <div class="text-center">
+                <img src="{{this.imgPath}}" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">{{this.productName}}</h5>
+                <p class="card-text">
+                    Storage Capacity: {{this.productDecsribtion.storageCapacity}} GB <br>
+                    Number Of SIM: {{this.productDecsribtion.numberOfSim}} <br>
+                    Rear Camera Resolution:{{this.productDecsribtion.rearCameraResolution}} MP <br>
+                    Display Size: {{this.productDecsribtion.displaySize}} Inch
+                </p>
+                <div>
+                    <div class="price"> EGP {{this.productPrice}} </div>
+                    <br>
+                    <a href="#" class="btn btn-dark">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</div>
+{{/each}}
+
+
+
+{{!--
+{{#each product}}
+<div class="row">
+    {{#each this}}
+
+    <div class="col">
+        <div class="card">
+            <div class="text-center">
+                <img src="{{this.imgPath}}" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">{{this.productName}}</h5>
+                <p class="card-text">
+                    Storage Capacity: {{this.productDecsribtion.storageCapacity}} GB <br>
+                    Number Of SIM: {{this.productDecsribtion.numberOfSim}} <br>
+                    Rear Camera Resolution:{{this.productDecsribtion.rearCameraResolution}} MP <br>
+                    Display Size: {{this.productDecsribtion.displaySize}} Inch
+                </p>
+                <div class="price"> ${{this.productPrice}} </div>
+                <br>
+                <a href="#" class="btn btn-dark">Buy Now</a>
+            </div>
+        </div>
+    </div>
+    {{/each}}
+
+</div>
+{{/each}} --}}
+
+
+{{!-- <div class="row">
+    <div class="col">
+        <div class="card">
+            <div class="text-center">
+                <img src="/images/10C.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Samsung Galaxy A23</h5>
+                <p class="card-text">Brand SAMSUNG, Model name SM-A235F/DSN, Wireless carrier Unlocked for All Carriers,
+                    OS android, Cellular technology 4G, Memory storage capacity 128 GB</p>
+                <div class="price"> 220$ </div>
+                <br>
+                <a href="#" class="btn btn-dark">Buy Now</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card">
+            <div class="text-center">
+                <img src="/images/10C.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Xiaomi Redmi 10C</h5>
+                <p class="card-text">4G (Graphite Gray, 4GB RAM, 128 GB Storage)- Dot Drop Display | 50mp with 5mp
+                    Rare Camera</p>
+                <div class="price"> 190$ </div>
+                <br>
+                <a href="#" class="btn btn-dark">Buy Now</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <div class="card">
+            <div class="text-center">
+                <img src="/images/10C.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">HUAWEI Y8p Dual SIM</h5>
+                <p class="card-text">128 GB, 6 GB RAM, 4G LTE - Midnight Black </p>
+                <div class="price"> 165$ </div>
+                <br>
+                <a href="#" class="btn btn-dark">Buy Now</a>
+            </div>
+        </div>
+    </div>
+</div> --}}

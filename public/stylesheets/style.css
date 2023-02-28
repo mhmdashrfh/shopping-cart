@@ -1,0 +1,37 @@
+.card .card-img-top {
+    width: 150px;
+    height: 250px;
+    padding: 20px;
+}
+
+.card .card-title {
+    font-size: 25px;
+}
+
+.card .card-text {
+    font-size: 13px;
+}
+
+.card .price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.col {
+    padding: 10px;
+}
+
+.row {
+    padding: 10px;
+}
+
+.card {
+    min-height: 500px;
+    max-height: 500px;
+
+}
+
+/* .card .btn {
+    position: fixed;
+    min-height: 20px;
+} */

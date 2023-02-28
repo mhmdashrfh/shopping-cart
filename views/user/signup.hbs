@@ -1,0 +1,31 @@
+<div class="col-md-4 offset-md-4" style="padding-top: 80px">
+    <h2 class="text-center">Sign Up</h2>
+
+    {{#each messages}}
+    <div class="alert alert-danger" role="alert">
+        <p>{{this}}</p>
+    </div>
+    {{/each}}
+
+    <form action="signup" method="post">
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" , name="email" , placeholder="Enter Your Email" , class="form-control">
+        </div>
+        <br>
+
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" , name="password" , placeholder="Enter Your password" , class="form-control">
+        </div>
+        <br>
+
+        <div class="form-group">
+            <label for="confirm password">Confirm Password</label>
+            <input type="password" , name="confirm password" , placeholder="Re-enter Your password" ,
+                class="form-control">
+        </div>
+        <br>
+        <button type="submit" , class="btn btn-primary">Sign Up</button>
+    </form>
+</div>
